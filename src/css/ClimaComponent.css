@@ -1,0 +1,79 @@
+.Clima {
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgb(226, 225, 225) 0%,
+    rgb(0, 159, 207) 50%,
+    rgb(209, 207, 207) 100%
+
+  );
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+
+  width: 50%;
+  min-height: 200px;
+  height: auto;
+  margin: 1%;
+  padding: 2%;
+  border: 0px solid;
+  border-radius: 16px;
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  overflow: auto;
+}
+
+@media (max-width: 450px) {
+  .Clima {
+    background-color: #595bcf;
+    width: 94%;
+    height: auto;
+    margin: 1%;
+    padding: 2%;
+    border: 0px solid;
+    border-radius: 16px;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  }
+}
+.sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sec2 h2 {
+  font-size: 3em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+}
+.sec2,
+.sec3,
+.sec4,
+.sec5,
+.sec6 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5%;
+}
+.sec5 {
+  margin-left: 5%;
+}
+.descrip {
+  margin-left: 4%;
+}
+
+h3 {
+  margin: 0;
+}
+
+.imgHumedad {
+  width: 50px;
+}
+
+.imgViento {
+  width: 50px;
+}
+
+.imgClima {
+  width: 50px;
+}

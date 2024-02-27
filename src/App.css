@@ -1,0 +1,33 @@
+main {
+  margin-top: 5%;
+  width: 100%;
+}
+
+.categorias {
+  display: flex;
+  align-items: row;
+  width: 60%;
+  margin: 1%;
+}
+
+.principal {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.tecno {
+  background-image: url("../img/tecnologia.jpg");
+  width: 25%;
+  height: 250px;
+  border: 0px solid;
+  border-radius: 16px;
+  margin: 1%;
+}
+
+.spin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
